@@ -20,6 +20,6 @@ Note: 	Replace selector with a unique name that identifies the key. Replace exam
 4. Create encrypted private key for the above generated private key using  the below command. This encrypted private key path to be used in AmazonSESDKIMSIGN.java
 openssl pkcs8 -topk8 -nocrypt -in private.pem -out private.key.der -outform der
 
-5. Make changes to AmazonSESDKIMSIGN.java as mentioned in TODO comments and run AmazonSESDKIMSIGN.java as Java Application in IDE.
+5. Make changes to variables in AmazonSESDKIMSIGN.java and run AmazonSESDKIMSIGN.java as Java Application in IDE.
 
 #############################
